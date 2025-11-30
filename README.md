@@ -16,3 +16,36 @@ It’s designed for easy data collection for noise analysis, machine learning, o
 🔌 Uses sounddevice for audio capture
 
 🧮 Uses scipy, numpy, and pandas for processing
+
+Noise Producer + Arduino ADC Recorder
+
+A Python + Arduino project for generating audio signals and recording 5-second ADC samples at 10 kS/s, saved automatically as CSV.
+
+This tool is useful for signal processing, noise analysis, audio experiments, machine-learning datasets, and sensor testing.
+
+✨ Features
+🔊 Noise Generator (Python)
+
+Pure Sine Wave
+
+White Gaussian Noise
+
+Pink Noise
+
+Band-Limited Noise
+
+Mix two signals together
+
+Adjustable frequency and duration
+
+Play through speakers using sounddevice
+
+🔌 Arduino 5-Second Recorder
+
+Samples A0 at 10,000 samples per second
+
+Sends exactly 50,000 samples over Serial
+
+Uses "START" and "END" markers for sync
+
+Python saves the recording automatically as CSV
