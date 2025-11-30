@@ -1,5 +1,6 @@
-Noise Generator & Recorder UI (Python)
 
+1)Noise Generator & Recorder UI (Python)
+-----------------------------------
 This Python application provides a simple UI to generate signals, record 5-second audio samples, and save them as CSV files.
 It’s designed for easy data collection for noise analysis, machine learning, or signal processing experiments.
 
@@ -16,9 +17,11 @@ It’s designed for easy data collection for noise analysis, machine learning, o
 🔌 Uses sounddevice for audio capture
 
 🧮 Uses scipy, numpy, and pandas for processing
+#########################################
 
-Noise Producer + Arduino ADC Recorder
 
+2)Noise Producer + Arduino ADC Recorder
+------------------------------------
 A Python + Arduino project for generating audio signals and recording 5-second ADC samples at 10 kS/s, saved automatically as CSV.
 
 This tool is useful for signal processing, noise analysis, audio experiments, machine-learning datasets, and sensor testing.
